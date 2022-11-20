@@ -1,5 +1,5 @@
 # quizdeuses
 quiz de personalidade sobre os deuses do Egito Antigo
 
-LINK
+# link
 https://tiphanynemet.github.io/quizdeuses/index.html
