@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  background-color: #F2F2F2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+}
+
+.container-login {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  background-color: white;
+  width: 420px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid rgba(200, 214, 229, 0.596);
+  border-radius: 24px;
+  position: relative;
+}
+
+form img {
+  width: 120px;
+  height: 120px;
+  margin: 20px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.welcome {
+  font-size: 1em;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+form input {
+  width: 100%;
+  height: 52px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #2D2D2D;
+  font-size: 20px;
+  padding: 0 16px;
+}
+
+.forgot-password {
+  width: 100%;
+  text-align: right;
+}
+
+.account-options {
+  width: 100%;
+  color: #c8d6e5;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.account-options a {
+  color: #c8d6e5;
+}
+
+button {
+  width: 100%;
+  height: 52px;
+  margin-top: 24px;
+  border-radius: 24px;
+  font-size: 22px;
+  font-weight: bold;
+  background: #ED9740;
+  color: white;
+}
+
+.login__button:disabled {
+  background-color: #eee;
+  color: #aaa;
+  cursor: auto;
+}

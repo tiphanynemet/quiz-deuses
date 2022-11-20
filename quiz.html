@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Quiz Personalidade</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="css/styles.css" rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+            integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body id="background">
+        <div class="jumbotron" id="jumbo">
+            <div class="container">
+                <div class="quiz-head">
+                    <h1 class="quiz-title">Quiz Game</h1>
+                    <div class="espaco">
+                        <center><span class="category" id="sub">Qual deus antigo você seria?</span></center>
+                    </div>
+                    <br />
+                </div>
+
+                <div class="quiz-body">
+                    <div id="questionDisplay" class="text-center"></div>
+                    <div class="tirarEspaco">
+                        <br>
+                        <p id="questionNumber">1/3</p>
+                        <h2 class="quiz-question" id="process">O que é mais importante?</h2>
+                    </div>
+                    <ul class="quiz-options">
+                        <li id="choice1">1. Dinheiro</li>
+                        <li id="choice2">2. Poder</li>
+                        <li id="choice3">3. Família</li>
+                        <li id="choice4">4. Nenhuma das opções</li>
+                    </ul>
+                    <div id="result">
+                        <br>
+                        <div id="picture" class="text-center show"></div> 
+                        <br>
+                        <br>
+                        <hr id="hr" />
+                        <br>
+                        <p id="quote"></p>
+                        <br>
+                    </div>
+                    <br/>
+                    <br>
+                    <div class="quiz-foot" id="restartButtonParent">
+                        <button id="restartButton">Reiniciar</button><br />
+                        <a href="index.html" style="text-decoration: none;"><button id="play-again">Voltar</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <!--
+                 <div>
+                    <h2 id="process">Are you smart?</h2>
+                </div>
+                <div class="row">
+                    <div class= "col-4">
+                        <div class = "text-center">
+                            <button id="choice1" class="button btn btn-info buttonChoice">Totally</button>
+                        </div>
+                    </div>
+                    <div class= "col-4">
+                        <div class="text-center">
+                            <button id="choice2" class="button btn btn-info buttonChoice">Kind of</button>
+                        </div>
+                    </div>
+                    <div class= "col-4">
+                        <div class="text-center">
+                            <button id="choice3" class="button btn btn-info  buttonChoice">Nah</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="result">
+                    <div id="picture" class="text-center show"></div>
+                    <hr id="hr">
+                    <p id="quote"></p>
+                </div>
+
+                <div id="restartButtonParent" class="pull-right">
+                    <button id="restartButton" class="btn buttonChoice">Restart</button>
+                </div>
+            -->
+        </div>
+        <script type="text/javascript" src="js/questions.js"></script>
+    </body>
+</html>
