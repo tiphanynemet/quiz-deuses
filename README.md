@@ -4,13 +4,13 @@ Projeto desenvolvido com **HTML**, **CSS** e **JavaScript puro**.
 
 ---
 
-## 📅 Ano de criação
+## Ano de criação
 
 **2022** – Projeto criado durante meu curso técnico de **Informática para Internet na ETEC**.
 
 ---
 
-## 🚀 Como Acessar
+## Como Acessar
 
 Acesse: [Quiz dos Deuses Egípcios](https://tiphanynemet.github.io/quizdeuses/index.html) 
 
@@ -22,7 +22,7 @@ Clique em **"Entrar"** para começar o quiz.
 
 ---
 
-## ⚙️ Tecnologias usadas
+## Tecnologias usadas
 
 - HTML5  
 - CSS3  
