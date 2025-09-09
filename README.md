@@ -30,7 +30,7 @@ Clique em **"Entrar"** para começar o quiz.
 
 ---
 
-## 📌 Observações Importantes
+## Observações Importantes
 
 - O sistema de login é simulado para fins de experiência de usuário  
 - Não há armazenamento real de credenciais  
